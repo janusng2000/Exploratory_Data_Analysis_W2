@@ -1,4 +1,4 @@
-NEI <- readRDS("./exdata-data-NEI_data/summarySCC_PM25.rds")
+NEI <- readRDS("summarySCC_PM25.rds")
 
 #  Create Data
 BC <- subset(NEI, fips == "24510")
